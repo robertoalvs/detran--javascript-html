@@ -25,7 +25,7 @@ function consultar() {
     } else if (total >= 0 && total < 18) {
 
         resp.innerHTML = `<strong>[NÃO AUTORIZADO!!!]</strong>`
-        imagem.src = '../teste-detran-javascript-html/img/stop.png'
+        imagem.src = '../detran--javascript-html/img/stop.png'
         document.getElementById('sessao01').style.background = 'rgba(247, 12, 12, 0.863)'
 
 
@@ -47,7 +47,7 @@ function consultar() {
     } else {
 
         resp.innerHTML = `<strong>[AUTORIZADO!!!]</strong>`
-        imagem.src = '../teste-detran-javascript-html/img/sinal-verde.png'
+        imagem.src = '../detran--javascript-html/img/sinal-verde.png'
         document.getElementById('sessao01').style.background = 'aquamarine'
 
         if (sexo[0].checked) {
